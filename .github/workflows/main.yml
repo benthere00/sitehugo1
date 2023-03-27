@@ -159,8 +159,8 @@ jobs:
           whoami
           cd $FILE_PATH && pwd && ls -lah
           cd ..
-          rm -r ./live/public || true
-          cp -r ./tmp/public ./live/public
+          rm -r ./prod/public || true
+          cp -r ./tmp/public ./prod/public
           docker-compose up -d && docker-compose restart
     
     # Check Website if Running
