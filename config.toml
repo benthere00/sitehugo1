@@ -1,7 +1,7 @@
 baseURL = "https://app-beta-2.datacareph.com/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "hugothemev1"
+theme = "themehugo1"
 
 # website title
 title = "Our Research, News, And Blog"
