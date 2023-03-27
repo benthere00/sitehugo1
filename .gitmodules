@@ -1,0 +1,6 @@
+[submodule "themes/themehugo1"]
+	path = themes/themehugo1
+	url = https://github.com/benthere00/themehugo1.git
+[submodule "content"]
+	path = content
+	url = https://github.com/benthere00/contenthugo1.git
