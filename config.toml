@@ -7,8 +7,7 @@ theme = "themehugo1"
 title = "Our Research, News, And Blog"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode =  ["en", "zh-CN", "fr", "de"]
-
+languageCode = "en"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 languageName = ["English", "简体中文", "Français", "Deutsch"]
 
@@ -18,6 +17,23 @@ paginate = 12
 googleAnalytics = ""
 # copyright description used only for seo schema
 copyright = "Research, News, and Blog - DataCarePH"
+
+[languages]
+  [languages.en]
+    title = "DataCarePH"
+    languageName = "English"
+    weight = 1
+  [languages.de]
+    title = "DataCarePH - Deutsch Willkommen"
+    languageName = "Deutsch"
+    weight = 2
+  [languages.fr]
+    title = "DataCarePH - Mon site français"
+    languageName = "Français"
+    weight = 3
+  [languages.zh]
+    languageName = "中文"
+    weight = 4
 
 # Author config
 [author]
