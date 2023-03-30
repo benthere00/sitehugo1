@@ -91,6 +91,12 @@ jobs:
         else
           mkdir ./public
         fi
+        # Enable this if there's a commit on the theme
+        if [ -d "./resources" ]; then
+          find ./resources ! -name '.gitignore' -delete 2>/dev/null || true
+        else
+          mkdir ./resources
+        fi
         git add -A
         git commit -m "Bot syncs Staging & Production branch at $(date +%s)" || true
         git push origin $PRODUCTION_BRANCH
@@ -159,7 +165,7 @@ jobs:
           whoami
           cd $FILE_PATH && pwd && ls -lah
           cd ..
-          [ -d "./prod/public" ] && rm -r ./prod/public || true
+          rm -r ./prod/public || true
           cp -r ./tmp/public ./prod/public
           docker-compose up -d && docker-compose restart
     
