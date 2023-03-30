@@ -33,7 +33,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     weight = 3
   [languages.zh]
     languageName = "中文"
-    weight = 2
+    weight = 4
 
 # Author config
 [author]
