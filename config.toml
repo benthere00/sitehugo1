@@ -131,7 +131,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "/android-chrome-512x512.png"
+      logo = "android-chrome-192x192.png"
       # title name
       # 标题名称
       name = "DataCarePh"
