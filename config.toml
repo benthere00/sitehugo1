@@ -26,7 +26,6 @@ copyright = "Research, News, and Blog - DataCarePH"
   [languages.de]
     title = "DataCarePH - Deutsch Willkommen"
     languageName = "Deutsch"
-    relLangURL = "/blog/de/"
     weight = 2
   [languages.fr]
     title = "DataCarePH - Mon site français"
