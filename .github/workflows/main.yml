@@ -172,7 +172,7 @@ jobs:
     # Check Website if Running
     - name: Is Website Down?
       run: |
-        sleep 1
+        sleep 2
         response=`curl --write-out %{http_code} \
           --silent \
           --output /dev/null \
