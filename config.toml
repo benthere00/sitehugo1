@@ -149,6 +149,7 @@ copyright = "Research, News, and Blog - DataCarePH"
   # 页面底部信息配置
   [params.footer]
     enable = true
+    enableEmoji = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
     custom = '<div class="share-the-love">Share the Love :heavy_heart_exclamation:</a>'
