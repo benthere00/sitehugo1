@@ -151,7 +151,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = '<div class="this-is-custom-footer">custom footer</a>'
+    custom = '<div class="share-the-love">Share the Love :heavy_heart_exclamation:</a>'
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
@@ -169,7 +169,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license= "<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />CC BY License</a>"
+    license= '<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />CC BY License</a>'
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
