@@ -154,6 +154,7 @@ jobs:
       uses: appleboy/ssh-action@master
       env:
         TMP_PATH: ${{ env.TMP_PATH }}
+        PROD_PATH: ${{ env.PROD_PATH }}
       with:
         host: ${{ env.SERVER_HOST }}
         port: ${{ env.SERVER_PORT }}
