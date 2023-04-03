@@ -9,8 +9,8 @@ env:
   SERVER_HOST: ${{ vars.SERVER_HOST }}
   SERVER_PORT: ${{ vars.SERVER_PORT }}
   SERVER_USER: ${{ vars.SERVER_USER }}
-  TMP_PATH: ${{ vars.TMP_PATH }} # must exists
-  PROD_PATH: ${{ vars.PROD_PATH }} # must exists
+  PATH_TMP: ${{ vars.PATH_TMP }} # must exists
+  PATH_PROD: ${{ vars.PATH_PROD }} # must exists
 on:
   push:
     branches:
@@ -146,15 +146,15 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         source: "public/*,!public/.*" # with . ignore list
         # source: "./public" # with . ignore list
-        target: ${{ env.TMP_PATH }}
+        target: ${{ env.PATH_TMP }}
         rm: true # default: false !Careful, the target folder will be removed
 
     # Deploy to Debian Server and NGINX Restart
     - name: Debian Server - Restarting NGINX Docker
       uses: appleboy/ssh-action@master
       env:
-        TMP_PATH: ${{ env.TMP_PATH }}
-        PROD_PATH: ${{ env.PROD_PATH }}
+        PATH_TMP: ${{ env.PATH_TMP }}
+        PATH_PROD: ${{ env.PATH_PROD }}
       with:
         host: ${{ env.SERVER_HOST }}
         port: ${{ env.SERVER_PORT }}
@@ -162,12 +162,12 @@ jobs:
         timeout: 10s
         # password: ${{ secrets.SERVER_PASSWORD }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        envs: TMP_PATH,PROD_PATH
+        envs: PATH_TMP,PATH_PROD
         script: |
           whoami
-          cd $TMP_PATH && pwd && ls -lah
-          rm -r "$PROD_PATH/public" || true
-          cp -r "$TMP_PATH/public" "$PROD_PATH/public"
+          cd $PATH_TMP && pwd && ls -lah
+          rm -r $PATH_PROD/public || true
+          cp -r $PATH_TMP/public $PATH_PROD/public
           docker-compose up -d && docker-compose restart
     
     # Check Website if Running
