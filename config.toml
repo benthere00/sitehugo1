@@ -275,7 +275,7 @@ copyright = "Research, News, and Blog - DataCarePH"
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "https://s.gravatar.com/avatar/6f7d53cfa6cab8b39c7018fd360917ff?s=80"
+      avatarURL = "https://s.gravatar.com/avatar/d016379ee552535be6523259c9d65b1c?s=80"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
       title = "DevOps"
