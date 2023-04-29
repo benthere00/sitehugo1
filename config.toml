@@ -50,7 +50,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "HOME"
+    name = "Home"
     url = "https://www.datacareph.com/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -61,7 +61,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "ARTICLES"
+    name = "Articles"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -70,7 +70,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     identifier = "tags"
     pre = ""
     post = ""
-    name = "TAGS"
+    name = "Tags"
     url = "/tags/"
     title = ""
   [[menu.main]]
@@ -78,7 +78,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     identifier = "categories"
     pre = ""
     post = ""
-    name = "TOPICS"
+    name = "Topics"
     url = "/categories/"
     title = ""
   [[menu.main]]
@@ -86,7 +86,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     identifier = "contact"
     pre = ""
     post = ""
-    name = "CONTACT"
+    name = "Contact"
     url = "https://www.datacareph.com/contact"
     title = ""
 
@@ -233,10 +233,10 @@ copyright = "Research, News, and Blog - DataCarePH"
   # Search config
   # 搜索配置
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
     # max index length of the chunked content
     # 文章内容最长索引长度
     contentLength = 4000
@@ -257,8 +257,8 @@ copyright = "Research, News, and Blog - DataCarePH"
     absoluteURL = false
     [params.search.algolia]
       index = ""
-      appID = ""
-      searchKey = ""
+      appID = "CFS0IGKQ6V"
+      searchKey = "71f9ddb95d3ec317e4023b4baea18787"
 
   # Home page config
   # 主页信息设置
@@ -666,7 +666,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-QDVFK27GYE"
       # whether to anonymize IP
       # 是否匿名化用户 IP
       anonymizeIP = true
