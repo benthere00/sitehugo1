@@ -92,7 +92,7 @@ copyright = "Research, News, and Blog - DataCarePH"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  
+
 # Markup related configuration in Hugo
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
@@ -259,7 +259,7 @@ copyright = "Research, News, and Blog - DataCarePH"
     # 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = ""
+      index = "prod_Blog"
       appID = "CFS0IGKQ6V"
       searchKey = "71f9ddb95d3ec317e4023b4baea18787"
 
