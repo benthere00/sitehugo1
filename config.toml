@@ -90,6 +90,9 @@ copyright = "Research, News, and Blog - DataCarePH"
     url = "https://www.datacareph.com/contact"
     title = ""
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  
 # Markup related configuration in Hugo
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
