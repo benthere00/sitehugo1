@@ -104,9 +104,7 @@ copyright = "Research, News, and Blog - DataCarePH"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-[content]
-  ignorefiles = ["templater/*"]
-  publishDir = "output"
+ignorefiles = ["content/templater/*"]
 
 # Markup related configuration in Hugo
 [markup]
