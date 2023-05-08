@@ -107,7 +107,6 @@ copyright = "Research, News, and Blog - DataCarePH"
 [content]
   ignorefiles = ["templater/*"]
   publishDir = "output"
-ignorefiles = ["content/templater/*"]
 
 # Markup related configuration in Hugo
 [markup]
