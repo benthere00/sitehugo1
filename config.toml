@@ -104,8 +104,6 @@ copyright = "Research, News, and Blog - DataCarePH"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-ignorefiles = ["content/templater/*"]
-
 # Markup related configuration in Hugo
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
