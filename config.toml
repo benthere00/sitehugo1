@@ -16,19 +16,19 @@ paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
 googleAnalytics = ""
 # copyright description used only for seo schema
-copyright = "Research, News, and Blog - DataCarePH"
+copyright = "Research, News, and Blog - DataCarePh"
 
 [languages]
   [languages.en]
-    title = "DataCarePH"
+    title = "DataCarePh"
     languageName = "English"
     weight = 1
   [languages.de]
-    title = "DataCarePH - Deutsch Willkommen"
+    title = "DataCarePh - Deutsch Willkommen"
     languageName = "Deutsch"
     weight = 2
   [languages.fr]
-    title = "DataCarePH - Mon site français"
+    title = "DataCarePh - Mon site français"
     languageName = "Français"
     weight = 3
   [languages.zh]
@@ -134,7 +134,7 @@ copyright = "Research, News, and Blog - DataCarePH"
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "DataCarePH - We Care for Your Data"
+  title = "DataCarePh - We Care for Your Data"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
   description = "Web and app deployent in a secure environment"
@@ -227,7 +227,7 @@ copyright = "Research, News, and Blog - DataCarePH"
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "DataCarePH"
+    title = "DataCarePh"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -295,7 +295,7 @@ copyright = "Research, News, and Blog - DataCarePH"
       title = "DevOps"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "&ldquo; This content is auto-generated from CI/CD pipeline! &#8220;"
+      subtitle = "&ldquo; This app is processed through CI/CD pipeline &#8220;"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
