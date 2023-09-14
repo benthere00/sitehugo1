@@ -140,7 +140,7 @@ ignoreFiles = ["docs/", "templater/"]
   title = "DataCarePh - We Care for Your Data"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "Web and app deployent in a secure environment"
+  description = "Automating Web and App Deployments for Scalable and Secure Environments"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/dev-ops-cicd.png"]
