@@ -16,7 +16,10 @@ paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
 googleAnalytics = ""
 # copyright description used only for seo schema
-copyright = "Research, News, and Blog - DataCarePh"
+copyright = "https://creativecommons.org/licenses/by/4.0/"
+
+# Ignore content and data files when rendering
+ignoreFiles = ["docs/", "templater/"]
 
 [languages]
   [languages.en]
