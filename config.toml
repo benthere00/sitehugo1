@@ -724,7 +724,7 @@ ignoreFiles = ["docs/", "templater/"]
     # 位于 "themes/hugothemev1/assets/data/cdn/" 目录
     # 可以在你的项目下相同路径存放你自己的数据文件:
     # "assets/data/cdn/"
-    data = "jsdelivr.yml"
+    data = "cdnjs.yml"
 
   # Compatibility config
   # 兼容性设置
