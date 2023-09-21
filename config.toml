@@ -182,7 +182,7 @@ disableHugoGeneratorInject = true
   # Head Code <head> CSS/JS inserts
   [params.head]
     enable = true
-    insert = '<script> alert(); </script>'
+    insert = ''
 
   # Footer config
   # 页面底部信息配置
