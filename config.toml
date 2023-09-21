@@ -697,7 +697,7 @@ disableHugoGeneratorInject = true
       id = "G-QDVFK27GYE"
       # whether to anonymize IP
       # 是否匿名化用户 IP
-      anonymizeIP = true
+      anonymizeIP = false
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
