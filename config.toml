@@ -179,6 +179,11 @@ disableHugoGeneratorInject = true
       # 是否为标题显示打字机动画
       typeit = false
 
+  # Head Code <head> CSS/JS inserts
+  [params.head]
+    enable = true
+    insert = '<script> alert(); </script>'
+
   # Footer config
   # 页面底部信息配置
   [params.footer]
