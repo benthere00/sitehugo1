@@ -148,6 +148,9 @@ disableHugoGeneratorInject = true
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/dev-ops-cicd.png"]
 
+  # Font Family e.g. Google
+  fontFamily = "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+
   # Header config
   # 页面头部导航栏配置
   [params.header]
