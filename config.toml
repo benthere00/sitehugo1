@@ -87,7 +87,7 @@ disableHugoGeneratorInject = true
     identifier = "tags"
     pre = ""
     post = ""
-    name = "Hash Tags"
+    name = "Tags"
     url = "/tags/"
     title = ""
   [[menu.main]]
@@ -731,11 +731,11 @@ disableHugoGeneratorInject = true
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
     # CDN 数据文件名称, 默认不启用
-    # ["jsdelivr.yml"]
+    # ["cdnjs.yml"]
     # 位于 "themes/hugothemev1/assets/data/cdn/" 目录
     # 可以在你的项目下相同路径存放你自己的数据文件:
     # "assets/data/cdn/"
-    data = "cdnjs.yml"
+    data = "jsdelivr.yml"
 
   # Compatibility config
   # 兼容性设置
